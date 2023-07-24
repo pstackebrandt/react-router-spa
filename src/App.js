@@ -19,6 +19,10 @@ function Users() {
   return <h2>Users</h2>;
 }
 
+function Impress() {
+  return <h2>Impress</h2>;
+}
+
 function App() {
   return (
     <Router>
@@ -34,6 +38,9 @@ function App() {
             <li>
               <Link to="/users">Users</Link>
             </li>
+            <li>
+              <Link to="/impress">Impress</Link>
+            </li>
           </ul>
         </nav>
 
@@ -41,6 +48,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/users" element={<Users />} />
           <Route path="/" element={<Home />} />
+          <Route path="/impress" element={<Impress />} />
         </Routes>
       </div>
     </Router>

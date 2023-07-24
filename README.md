@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# React router example
+Simple example by chat gpt 4
+https://chat.openai.com/share/6eb12279-b17f-4859-8085-bdea4bcf6052
+Wie erstelle ich mit react router eine SPA?
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
